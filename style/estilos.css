@@ -91,7 +91,7 @@ header p {
     flex-direction: column;
 }
 
-/* HOVER CON BOX SHADOW (Especificación del PDF) */
+/* HOVER CON BOX SHADOW (Especificación del PDF) o_O*/
 .card:hover {
     transform: translateY(-8px); /* Pequeño salto hacia arriba */
     box-shadow: 0 12px 24px rgba(13, 71, 161, 0.2); /* Sombra más intensa */
