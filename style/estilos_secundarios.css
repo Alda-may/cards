@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* header*/
+header {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* contenedor */
+.contenedor-principal {
+    display: flex;
+    flex: 1; /* Hace que ocupe todo el espacio disponible antes del footer */
+}
+
+/* nav vertical*/
+.navegacion-vertical {
+    background-color: #1e293b;
+    width: 220px; /* Ancho fijo para la barra lateral */
+    padding: 2rem 0;
+}
+
+.navegacion-vertical ul {
+    list-style: none;
+}
+
+.navegacion-vertical ul li a {
+    display: block;
+    color: #cbd5e1;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+/* Efecto hover en el menú */
+.navegacion-vertical ul li a:hover {
+    color: white;
+    background-color: #334155;
+    border-left: 4px solid #00cbd6; /* Detalle celeste brillante */
+    padding-left: 2rem; /* Ligero desplazamiento a la derecha */
+}
+
+
+
+/* footer */
+footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+    border-top: 3px solid #00cbd6;
+}
